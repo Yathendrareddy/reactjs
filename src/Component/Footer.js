@@ -1,20 +1,20 @@
 import React from "react"
-import Footer from "./Footer"
-// function Main(){
+import Middle from "./Middle"
+// function Footer(){
 //     return(
 //         <div>
-//             <Footer />
+//             <Middle />
 //         </div>
 //     )
 // }
-
-class Main extends React.Component{
+class Footer extends React.Component{
     render(){
         return(
             <div>
-               <Footer />
+               <Middle />
            </div>
         )
     }
 }
-export default Main
+
+export default Footer

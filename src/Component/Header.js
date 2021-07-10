@@ -1,26 +1,20 @@
-import React from 'react'
-
-//class component
-
-class Header extends React.Component{
-    constructor(props){
-        super(props)
-    }
-    render(){
-        return(
-            <div>
-                <h1>Hello {this.props.name} </h1>
-            </div>
-        )
-    }
-}
-
-// function Header(props){
+import React from "react"
+import "./style.css"
+// function Header(){
 //     return(
 //         <div>
-//             <h1>Hello {props.name} .</h1>
+//             <h1>Anil Reddy</h1>
 //         </div>
 //     )
 // }
+class Header extends React.Component{
+    render(){
+        return(
+            <div>
+               <h1>Anil Reddy 04</h1>
+           </div>
+        )
+    }
+}
 
 export default Header
